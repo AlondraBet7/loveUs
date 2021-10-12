@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Estilos menú  */
+
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 10px;
+    height: auto !important;
+    z-index: 0;
+    text-align: center;
+}
+
+.navbarTitle {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    margin-left: 2%;
+}
+
+.items{
+    text-decoration: none;
+    color: black;
+}
+
+.navbarTitle:hover {
+    color: rgb(251, 104, 19);
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 120%;
+    font-weight: 400;
+    list-style: none ;
+}
+
+.navbar-list .items {
+    list-style: none;
+    font-weight: 700;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.navbar-list .items:hover {
+    color: rgb(251, 104, 19);
+}
+
+/* Estilos imagen Uno */
+
+#boxOne {
+    padding-top: 10rem;
+    padding-bottom: 5.5em;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://i.blogs.es/5165b0/surface-laptop-3-115/1366_2000.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* z-index: 20; */
+}
+
+/* .image{
+    opacity: 0.6;
+    position: relative;
+    z-index: -20;
+} */
+
+#text {
+    color: white;
+}
+
+.titleTwo {
+    position: relative;
+    top: -100px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.lineOrange {
+    width: 10%;
+    background-color: rgb(246, 81, 16);
+    border: 1.2px solid rgb(246, 81, 16);
+}
+
+.positionLine {
+    position: relative;
+    left: 45%;
+    top: -30%;
+}
+
+.paragraphOne {
+    text-align: center;
+    line-height: 22px;
+    font-size: 1.2em;
+    position: relative;
+    top: -20%;
+}
+
+.buttonInfo {
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    left: 40%;
+    background-color: rgb(246, 81, 16);
+    border: 30px rgb(246, 81, 16);
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+/* Caja dos */
+
+#boxTwo {
+    background-color: rgb(246, 81, 16);
+    height: 490px;
+}
+
+.titleThree {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.lineWhite {
+    width: 6%;
+    background-color: rgb(255, 255, 255);
+    border: 1.2px solid rgb(255, 255, 255);
+}
+
+.positionLineTwo {
+    position: relative;
+    top: 25%;
+    left: 47%;
+}
+
+.lineTwo {
+    opacity: 5;
+    border: none;
+    width: 50px;
+    height: 3px;
+    position: relative;
+    top: 120px;
+    left: 600px;
+    color: rgb(214, 214, 214);
+}
+
+.paragraphTwo {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 120%;
+    line-height: 22px;
+}
+
+.buttonTwo {
+    border-radius: 70px;
+    padding: 15px;
+    position: relative;
+    left: 45%;
+    top: 200px;
+    background-color: rgb(212, 212, 212);
+    border: 30px rgb(245, 242, 241);
+    color: rgb(10, 9, 9);
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Caja tres */
+
+#boxThree {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleFour {
+    color: black;
+    font-size: 200%;
+    align-self: center;
+}
+
+.lineOrangeTwo {
+    width: 5%;
+    background-color: rgb(246, 81, 16);
+    border: 1.2px solid rgb(246, 81, 16);
+}
+
+.positionLineThree {
+    position: relative;
+    top: -70px;
+    left: 47%;
+}
+
+/* BOX FOUR  */
+
+#boxFour {
+    color: rgb(246, 81, 16);
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* boxFive */
+
+.boxFive {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titleFive {
+    padding-top: 2%;
+    font-size: 160%;
+    font-weight: normal;
+}
+
+.titleShow {
+    position: relative;
+    right: 2.5%;
+}
+
+/* Caja seis: Parrafos debajo de iconos*/
+
+.boxSix {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.paragraphBoxS1 {
+    position: relative;
+    left: 4%;
+    padding-top: 0;
+}
+
+.paragraphBoxS2 {
+    position: relative;
+    left: 9%;
+}
+
+.paragraphBoxS3 {
+    position: relative;
+    left: 8%;
+    padding-top: 2%;
+}
+
+.paragraphBoxS4 {
+    position: relative;
+    left: 4%;
+    padding-top: 2%;
+}
+
+/* .paragraphThree{ */
+
+/* position: relative;
+    top: -30px;
+    left: 5px; */
+
+/* } */
+
+/* .paragraphFour{
+    position: relative;
+    left: 15px;
+} */
+
+/* Grilla de img */
+
+.grillaImg {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 8%;
+    margin-bottom: 0;
+}
+
+.grillaImg2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: relative;
+    top: -5px;
+}
+
+
+/* PRUEBA DE OPACIDAD GRILLA  */
+
+.textBehind {
+    color: rgb(228, 189, 153);
+    position: absolute;
+    z-index: -5;
+    font-weight: bold;
+    background-color: rgb(246, 81, 16);
+    width: 382.8px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: -0.8em;
+}
+
+.divImg {
+    display: inline-block;
+    position: relative;
+}
+
+.imgBehind {
+    width: 382.8px;
+    height: 250px;
+}
+
+.divImg .textBehind {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 10px;
+    margin: 0;
+}
+
+.imgBehind:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+/* Box Eight */
+
+.boxEight {
+    /* margin-top: 0 !important;
+    padding-top: 0; */
+    background-color: rgb(14, 11, 11);
+    height: 370px;
+}
+
+.titleSix {
+    font-weight: normal;
+    font-size: 200%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+
+.buttonThree {
+    flex-direction: column;
+    border-radius: 70px;
+    padding: 20px;
+    border: 1px white;
+    font-weight: bold;
+    position: relative;
+    top: 40%;
+    left: 42%;
+}
+
+/* Box nine */
+
+.titleSeven {
+    font-size: 200%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.positionLineFour {
+    position: relative;
+    top: -6px;
+    left: 47%;
+}
+
+.paragraphFive {
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 2%;
+    line-height: 30px;
+    position: relative;
+}
+
+/* PRUEBA FORMULARIO */
+
+.positionForm{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-control{
+   position: relative;
+   right: 90%;
+    width: 300%;
+   padding: 5%;
+ 
+}
+
+/* ButtonSend */
+
+.buttonSend{
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    left: 45%;
+    background-color: rgb(246, 81, 16);
+    border: 30px rgb(246, 81, 16);
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center
+}
+
+/* Parte final// Box TEN */
+
+.boxTen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.iconPhone {
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.number {
+    font-size: 100%;
+    align-self: center;
+    margin: 8% 0;
+    /* position: relative;
+    top: 110px;
+    left: 550px; */
+}
+
+.author {
+    font-size: 100%;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+/* position: relative;
+    top: 250px;
+    left: 480px;
